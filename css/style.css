@@ -1,0 +1,565 @@
+/*===========================
+Google Font Raleway+Open+Sans
+===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*=========
+Global CSS
+===========*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+	font-family: 'Raleway', sans-serif;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.title-border{
+	width: 13%;
+    height: 3px;
+    margin: 25px 0;
+    background: #ff8b38;
+}
+.awsome-bdr{
+	display: block;
+    margin: 25px auto;
+    width: 10%;
+}
+
+/*============
+Header Section
+==============*/
+header{
+	padding: 18px 0;
+	background: #000;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff8b38;
+}
+
+/*============
+Hero Section
+==============*/
+.hero-section{
+	padding: 100px 0;
+	background: url(../img/hero-section.png) no-repeat center;
+	background-size: cover;
+}
+.hero-section h1{
+	color: #fff;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.hero-border{
+	width: 15%;
+    height: 4px;
+    background: #fff;
+}
+.hero-section p{
+	color: #d6d6d6;
+    font-weight: 300;
+    padding-right: 100px;
+    margin: 50px 0;
+}
+.btn{
+	padding: 8px 45px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #fff;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover {
+    color: #ff8b38;
+    background: #fff;
+}
+
+/*subscribe form*/
+
+.subscribe-form{
+	width: 80%;
+	padding: 25px;
+	float: right;
+}
+.sub-head{
+	background: #f5f5f5;
+    text-align: center;
+    padding: 12px 15px;
+}
+.sub-head h2{
+	font-size: 25px;
+    font-weight: bold;
+}
+.sub-head span{
+	color: #ff8b38;
+}
+.sub-body{
+	background: #fff;
+    padding: 40px;
+}
+.form-control{
+	border: none;
+    border-bottom: 2px solid #d6d6d6;
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+.mb-3 {
+    margin-bottom: 2rem!important;
+}
+.sub-footer{
+	background: #ff9b51;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #ff9b51;
+    transition: 0.4s ease-in-out;
+}
+.sub-btn{
+	background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sub-footer:hover{
+	background: #fff;
+	color: #ff9b51;
+	border: 3px solid #ff9b51;
+}
+.sub-footer:hover .sub-btn{
+	color: #ff9b51;
+}
+
+/*===================
+Social Media Section
+====================*/
+.social-media{
+	box-shadow: 0px 3px 3px #000;
+}
+.social-media h5{
+	font-weight: 700;
+	padding-top: 20px;
+}
+.social-media p{
+	color: #86878b;
+}
+.social-icon{
+
+}
+.social-icon ul{
+	padding-top: 20px;
+}
+.social-icon ul li{
+	display: inline;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 36px;
+}
+.social-icon .fa{
+	font-size: 50px;
+    color: #cccccc;
+}
+
+/*==========
+Tab Section
+============*/
+.tab-section{
+	background: #f5f5f5;
+	padding: 75px 0;
+}
+.tab{
+	display: block;
+	margin: 5px auto;
+	width: 150px;
+	height: 150px;
+	background: #333333;
+	transition: 0.4s ease-in-out;
+}
+.tab:hover {
+	background: #ff8b38;
+}
+.tab p{
+	color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    line-height: 150px;
+}
+.tab-body{
+
+}
+.tab-body h5{
+	font-size: 25px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+.tab-body p{
+    color: #86878b;
+    font-size: 18px;
+    margin: 20px 0;	
+}
+.tab-btn{
+	padding: 8px 45px;
+	margin: 55px 0;
+    font-size: 18px;
+    color: #fff;
+    background: #ff8b38;
+    font-weight: bold;
+    border: 3px solid #ff8b38;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.tab-btn:hover{
+	color: #fff;
+	border: 3px solid #333333;
+	background: #333333;
+}
+.tab-img img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*=============
+Features Section
+===============*/
+.features-section{
+	padding: 75px 0;
+}
+.features-content h5{
+	font-size: 24px;
+    font-weight: 600;
+}
+
+.features-img img{
+	width: 90%;
+}
+.features-content p{
+	color: #86878b;
+    font-size: 18px;
+    margin: 35px 0;
+}
+.features-icon{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    line-height: 60px;
+}
+.features-icon .fa{
+	font-size: 25px;
+    color: #ff8b38;
+}
+.features-down h5{
+	font-weight: 600;
+}
+.features-down p{
+	color: #86878b;
+}
+.second-feature{
+	background: #f5f5f5;
+}
+
+/*=============
+Awsome Section
+===============*/
+.awsome-section{
+	padding: 75px 0;
+	text-align: center;
+}
+.awsome-section h1{
+	font-size: 45px;
+}
+
+.awsome-section p{
+	color: #86878b;
+}
+.awsome-item{
+	padding-top: 75px;
+}
+.aw-icon{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border: 3px solid #ff8b38;
+    border-radius: 50%;
+    line-height: 60px;
+}
+.aw-icon .fa{
+	line-height: 70px;
+    font-size: 45px;
+    color: #ff8b38;
+}
+.awsome-box{
+	padding: 25px;
+}
+.awsome-box h5{
+	font-weight: 600;
+    margin: 25px 0;
+}
+
+/*=============
+Pricing Section
+===============*/
+.pricing-section{
+	padding: 75px 0;
+	text-align: center;
+	background: #f5f5f5;
+}
+.pricing-section h1{
+	font-size: 45px;
+}
+.pricing-section p{
+	color: #86878b;
+}
+.price-box{
+	text-align: center;
+	margin-top: 75px;
+}
+.price-margin-top{
+	margin-top: 130px;
+}
+.price-head{
+	background: #333333;
+}
+.price-head h5{
+	color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+.price-head h1{
+	color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+}
+.price-head span{
+	color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.price-head p{
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.price-body{
+	background: #ff8b38;
+}
+.price-body h6{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 0;
+    margin: 0;
+}
+.price-footer{
+	background: #fff;
+}
+.price-footer p{
+	background: #fff;
+    margin: 0;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+/*================
+Tstimonial Section
+=================*/
+.testimonial-section{
+	padding: 75px 0;
+	text-align: center;
+}
+.testimonial-section h1{
+	font-size: 45px;
+}
+.testimonial-section p{
+	color: #86878b;
+}
+.testimonial-area{
+	margin-top: 50px;
+}
+.testi-content{
+	position: relative;
+	background: #f5f5f5;
+	padding: 30px;
+	text-align: left;
+	border-radius: 10px;
+}
+.testi-msg{
+	position: absolute;
+    bottom: -10px;
+    left: 45px;
+    width: 40px;
+    height: 40px;
+	background: #f5f5f5;
+	transform: rotate(45deg);
+}
+.testi-member{
+	margin-top:30px; 
+}
+.testi-member h4{
+	text-align: left;
+    font-weight: 700;
+}
+.testi-member p{
+	text-align: left;
+}
+
+/*==============
+Stylish Section
+================*/
+.stylish-section{
+	background: url(../img/custom-section.png)no-repeat center;
+	background-size: cover;
+	text-align: center;
+	padding: 75px 0;
+}
+.stylish-section h1{
+	color: #fff;
+    font-size: 45px;
+}
+.style-border{
+	width: 13%;
+    height: 3px;
+    display: block;
+    margin: 25px auto;
+    background: #fff;
+}
+.stylish-section p{
+	color: #c7c6c3;
+    font-size: 18px;
+}
+.style-btn{
+	margin: 50px 0; 
+}
+
+/*==============
+Contact Section
+================*/
+.contact-section{
+	padding: 75px;
+	text-align: center;
+}
+.contact-section h1{
+	font-size: 45px;
+}
+.contact-section p{
+	color: #86878b;
+}
+.form-area{
+	margin-top: 50px;
+}
+
+/*==============
+Footer Section
+================*/
+.footer-section{
+	padding: 20px 0;
+	background: #000000;
+}
+.foot-social-icon{
+	
+}
+.foot-social-icon ul{
+	padding: 20px 0;
+	text-align: center;
+}
+.foot-social-icon ul li{
+	display: inline;
+	margin: 0 10px;
+}
+.foot-social-icon .fa{
+	font-size: 40px;
+    color: #cccccc;
+}
+.foot-content p{
+	color: #86878b;
+	text-align: center;
+}
+
+/* ======================
+Media Query For laptop/PC
+========================= */
+@media (min-width: 992px) and (max-width: 1024px){
+	
+}
+/* =====================
+Media Query For Notebook
+======================== */
+@media (min-width: 768px) and (max-width: 992px){
+	
+}
+
+/* ====================
+Media Query For Tablet
+======================= */
+@media (min-width: 576px) and (max-width: 768px){
+	
+}
+
+/* ====================
+Media Query For Mobile
+======================= */
+@media (min-width: 320px) and (max-width: 576px){
+	.navbar-light .navbar-toggler {border-color: #fff;}
+	.navbar-toggler:focus {box-shadow: none;}
+	.navbar-toggler-icon .fa{color: #fff;font-size: 30px;}
+	.hero-section {padding: 75px 0; text-align: center;}
+	.hero-border {margin: 0 auto;}
+	.hero-section p {padding-right: 0;margin: 20px 0;}
+	.subscribe-form {width: 100%;float: none;}
+	.social-icon ul {text-align: center;}
+	.social-icon ul li {width: 50px;height: 100px;line-height: 50px;margin: 0 5px;}
+	.social-icon .fa {font-size: 42px;}
+	.tab {
+    margin: 5px auto;
+    width: 75px;
+    height: 75px;
+    background: #333333;
+    transition: 0.4s ease-in-out;
+}
+	.tab p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 75px;
+}
+
+}
